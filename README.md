@@ -50,6 +50,8 @@ In my project there are 8 various feauture windows and their functions are given
 
 ## Screenshots
 ### Home page
-<img src="https://github.com/Anuradha-Naidu/Face-Recognition-Attendance-System/blob/master/screenshots/Home%20page.png?raw=true" width="600" height="500" />
+<p align="center">
+<img src="https://github.com/Anuradha-Naidu/Face-Recognition-Attendance-System/blob/master/screenshots/Home%20page.png?raw=true" width="600" height="500" </p>
+/>
 ### Student details
 ![App screenshot]("https://github.com/Anuradha-Naidu/Face-Recognition-Attendance-System/blob/master/screenshots/stud.png?raw=true")
