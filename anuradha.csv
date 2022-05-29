@@ -1,0 +1,8 @@
+Student ID,Roll,Name,Department,Time,Date,Attendance,Teacher
+1,1,Anuradha,Computer,09:45:15,29/05/2022,Present
+2,2,Vijay,Computer,09:44:52,29/05/2022,Present
+3,3,Pooja,Mechanic,14:28:51,27/05/2022,Absent,Smita
+4,4,Ajay,IT,14:28:51,27/05/2022,Present,Rajesh
+5,5,Vijay,Mechanic,14:28:51,27/05/2022,Present,Smita
+6,6,Sona,IT,14:28:51,27/05/2022,Present,Tina
+7,7,Prem,Computer,14:28:51,27/05/2022,Absent,Rajesh
