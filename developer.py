@@ -20,7 +20,7 @@ class Developer:
         Back_Button=Button(title_lbl,text="Back",command=self.root.destroy,font=("times new roman",15,"bold"),width=20,bg="white",fg="green")
         Back_Button.pack(side=RIGHT)
 
-        img_top=Image.open("/Users/anuradhanaidu/Desktop/Face/images/dev3.jpg")
+        img_top=Image.open("images/dev3.jpg")
         img_top=img_top.resize((1530,720),Image.ANTIALIAS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 
@@ -31,7 +31,7 @@ class Developer:
         main_frame=Frame(f_lbl,bd=2,bg="black")
         main_frame.place(x=800,y=50,width=500,height=300)
 
-        img_top1=Image.open("/Users/anuradhanaidu/Desktop/Face/images/anu.png")
+        img_top1=Image.open("images/anu.png")
         img_top1=img_top1.resize((200,200),Image.ANTIALIAS)
         self.photoimg_top1=ImageTk.PhotoImage(img_top1)
 
