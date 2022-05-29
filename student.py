@@ -410,14 +410,14 @@ class Student:
        content=self.student_table.item(cursor_focus)
        data=content["values"]
 
-       self.var_dep.set(data[5]),
-       self.var_course.set(data[6]),
-       self.var_year.set(data[4]),
+       self.var_dep.set(data[0]),
+       self.var_course.set(data[1]),
+       self.var_year.set(data[2]),
        self.var_semester.set(data[3]),
-       self.var_std_id.set(data[0]),
-       self.var_std_name.set(data[2]),
-       self.var_div.set(data[3]),
-       self.var_roll.set(data[1]),
+       self.var_std_id.set(data[4]),
+       self.var_std_name.set(data[5]),
+       self.var_div.set(data[6]),
+       self.var_roll.set(data[7]),
        self.var_gender.set(data[8]),
        self.var_dob.set(data[9]),
        self.var_email.set(data[10]),
@@ -612,33 +612,12 @@ class Student:
 
             except Exception as es:
                messagebox.showerror("Error",f"Due To:{str(es)}",parent=self.root)  
-
-
-
-               
-
-
-
-
-
-
-
-
-            
-
-                          
-
-
-        
+    
 
                                                                                                                                         
                                                                                                                                                       
-                                                                                                              
-                                                                                                               
-       
-                                                                                                                                                                                           
-                                                                                                                                                                                           
-                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                 
 if __name__ == "__main__":
    root=Tk()
    app=Student(root)
