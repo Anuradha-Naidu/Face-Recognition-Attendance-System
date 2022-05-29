@@ -38,7 +38,7 @@ class Student:
        
 
        #first img
-       img=Image.open("/Users/anuradhanaidu/Desktop/Face/images/pic1.jpg")
+       img=Image.open("images/pic1.jpg")
        img=img.resize((500,130),Image.ANTIALIAS)
        self.photoimg=ImageTk.PhotoImage(img)
 
@@ -46,7 +46,7 @@ class Student:
        f_lbl.place(x=0,y=0,width=500,height=130)
 
        #secimg
-       img1=Image.open("/Users/anuradhanaidu/Desktop/Face/images/face3.jpg")
+       img1=Image.open("images/face3.jpg")
        img1=img1.resize((500,130),Image.ANTIALIAS)
        self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -54,7 +54,7 @@ class Student:
        f_lbl.place(x=500,y=0,width=500,height=130)
 
        #thirdimg
-       img2=Image.open("/Users/anuradhanaidu/Desktop/Face/images/pic2.jpg")
+       img2=Image.open("images/pic2.jpg")
        img2=img2.resize((500,130),Image.ANTIALIAS)
        self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -62,7 +62,7 @@ class Student:
        f_lbl.place(x=1000,y=0,width=500,height=130)
 
        #bg img
-       img3=Image.open("/Users/anuradhanaidu/Desktop/Face/images/pic3.png")
+       img3=Image.open("images/pic3.png")
        img3=img3.resize((1530,710),Image.ANTIALIAS)
        self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -83,7 +83,7 @@ class Student:
        left_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Details", font=("times new roman",12,"bold"))
        left_frame.place(x=10,y=10,width=690,height=580)
 
-       img_left=Image.open("/Users/anuradhanaidu/Desktop/Face/images/face5.jpg")
+       img_left=Image.open("images/face5.jpg")
        img_left=img_left.resize((690,130),Image.ANTIALIAS)
        self.photoimg_left=ImageTk.PhotoImage(img_left)
 
@@ -266,7 +266,7 @@ class Student:
        right_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Details", font=("times new roman",12,"bold"))
        right_frame.place(x=710,y=10,width=690,height=580)
 
-       img_right=Image.open("/Users/anuradhanaidu/Desktop/Face/images/face5.jpg")
+       img_right=Image.open("images/face5.jpg")
        img_right=img_right.resize((690,130),Image.ANTIALIAS)
        self.photoimg_right=ImageTk.PhotoImage(img_right)
 
