@@ -20,7 +20,7 @@ class Help:
         Back_Button=Button(title_lbl,text="Back",command=self.root.destroy,font=("times new roman",15,"bold"),width=20,bg="white",fg="green")
         Back_Button.pack(side=RIGHT)
 
-        img_top=Image.open("/Users/anuradhanaidu/Desktop/Face/images/help3.jpg")
+        img_top=Image.open("images/help3.jpg")
         img_top=img_top.resize((1530,720),Image.ANTIALIAS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 
