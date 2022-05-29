@@ -24,7 +24,7 @@ class Train:
        Back_Button=Button(title_lbl,text="Back",command=self.root.destroy,font=("times new roman",15,"bold"),width=20,bg="white",fg="green")
        Back_Button.pack(side=RIGHT)
 
-       img_top=Image.open("/Users/anuradhanaidu/Desktop/Face/images/collage.png")
+       img_top=Image.open("images/collage.png")
        img_top=img_top.resize((1530,325),Image.ANTIALIAS)
        self.photoimg_top=ImageTk.PhotoImage(img_top)
 
@@ -35,7 +35,7 @@ class Train:
        b1_1=Button(self.root,text="TRAIN DATA",command=self.train_classifier,cursor="hand2",font=("times new roman",50,"bold"),bg="white",fg="red")
        b1_1.place(x=0,y=380,width=1530,height=60)
 
-       img_bottom=Image.open("/Users/anuradhanaidu/Desktop/Face/images/train1.jpg")
+       img_bottom=Image.open("images/train1.jpg")
        img_bottom=img_bottom.resize((1530,325),Image.ANTIALIAS)
        self.photoimg_bottom=ImageTk.PhotoImage(img_bottom)
 
