@@ -25,7 +25,7 @@ class Face:
        self.root.wm_iconbitmap("icon.ico")
 
        #first img
-       img=Image.open("/Users/anuradhanaidu/Desktop/Face/images/pic1.jpg")
+       img=Image.open("images/pic1.jpg")
        img=img.resize((500,130),Image.ANTIALIAS)
        self.photoimg=ImageTk.PhotoImage(img)
 
@@ -33,7 +33,7 @@ class Face:
        f_lbl.place(x=0,y=0,width=500,height=130)
 
        #secimg
-       img1=Image.open("/Users/anuradhanaidu/Desktop/Face/images/face3.jpg")
+       img1=Image.open("images/face3.jpg")
        img1=img1.resize((500,130),Image.ANTIALIAS)
        self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -41,7 +41,7 @@ class Face:
        f_lbl.place(x=500,y=0,width=500,height=130)
 
        #thirdimg
-       img2=Image.open("/Users/anuradhanaidu/Desktop/Face/images/pic2.jpg")
+       img2=Image.open("images/pic2.jpg")
        img2=img2.resize((500,130),Image.ANTIALIAS)
        self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -49,7 +49,7 @@ class Face:
        f_lbl.place(x=1000,y=0,width=500,height=130)
 
        #bg img
-       img3=Image.open("/Users/anuradhanaidu/Desktop/Face/images/pic3.png")
+       img3=Image.open("images/pic3.png")
        img3=img3.resize((1530,710),Image.ANTIALIAS)
        self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -71,7 +71,7 @@ class Face:
        
        
        #student button
-       img4=Image.open("/Users/anuradhanaidu/Desktop/Face/images/face6.jpg")
+       img4=Image.open("images/face6.jpg")
        img4=img4.resize((220,220),Image.ANTIALIAS)
        self.photoimg4=ImageTk.PhotoImage(img4)
 
@@ -83,7 +83,7 @@ class Face:
 
        #detect face 
        
-       img5=Image.open("/Users/anuradhanaidu/Desktop/Face/images/face7.jpg")
+       img5=Image.open("images/face7.jpg")
        img5=img5.resize((220,220),Image.ANTIALIAS)
        self.photoimg5=ImageTk.PhotoImage(img5)
 
@@ -94,7 +94,7 @@ class Face:
        b1_1.place(x=500,y=300,width=220,height=40)
        
        #attendance
-       img6=Image.open("/Users/anuradhanaidu/Desktop/Face/images/face9.jpg")
+       img6=Image.open("images/face9.jpg")
        img6=img6.resize((220,220),Image.ANTIALIAS)
        self.photoimg6=ImageTk.PhotoImage(img6)
 
@@ -106,7 +106,7 @@ class Face:
 
        #help
        
-       img7=Image.open("/Users/anuradhanaidu/Desktop/Face/images/help.jpg")
+       img7=Image.open("images/help.jpg")
        img7=img7.resize((220,220),Image.ANTIALIAS)
        self.photoimg7=ImageTk.PhotoImage(img7)
 
@@ -118,7 +118,7 @@ class Face:
 
        #train data
 
-       img8=Image.open("/Users/anuradhanaidu/Desktop/Face/images/face10.jpeg")
+       img8=Image.open("images/face10.jpeg")
        img8=img8.resize((220,220),Image.ANTIALIAS)
        self.photoimg8=ImageTk.PhotoImage(img8)
 
@@ -130,7 +130,7 @@ class Face:
 
        #photos
 
-       img9=Image.open("/Users/anuradhanaidu/Desktop/Face/images/fac2.jpeg")
+       img9=Image.open("images/fac2.jpeg")
        img9=img9.resize((220,220),Image.ANTIALIAS)
        self.photoimg9=ImageTk.PhotoImage(img9)
 
@@ -142,7 +142,7 @@ class Face:
 
        #developer
 
-       img10=Image.open("/Users/anuradhanaidu/Desktop/Face/images/developer.jpg")
+       img10=Image.open("images/developer.jpg")
        img10=img10.resize((220,220),Image.ANTIALIAS)
        self.photoimg10=ImageTk.PhotoImage(img10)
 
@@ -154,7 +154,7 @@ class Face:
 
        #exit
 
-       img11=Image.open("/Users/anuradhanaidu/Desktop/Face/images/exit.jpg")
+       img11=Image.open("images/exit.jpg")
        img11=img11.resize((220,220),Image.ANTIALIAS)
        self.photoimg11=ImageTk.PhotoImage(img11)
 
@@ -169,7 +169,7 @@ class Face:
     def open_img(self):
        
        opener = "open" if sys.platform == "darwin" else "xdg-open"
-       subprocess.call([opener,"/Users/anuradhanaidu/Desktop/Face/data"])
+       subprocess.call([opener,"data"])
        
       #======function buttons======= 
    
