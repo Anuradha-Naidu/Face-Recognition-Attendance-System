@@ -52,7 +52,7 @@ class Face_Recognition:
     
     #======attendance=========
     def mark_attendance(self,i,r,n,d):
-        with open('Attendance-Report/anuradha.csv','r+',newline='\n') as f:
+        with open('anuradha.csv','r+',newline='\n') as f:
             myDataList=f.readlines()
             name_list=[]
             for line in myDataList:
@@ -102,7 +102,7 @@ class Face_Recognition:
                 d=my_cursor.fetchone()
                 
                 
-                if confidence>47:
+                if confidence>77:
                     
                     cv2.putText(frame,f"StudentId:{i}",(x,y-75),cv2.FONT_HERSHEY_COMPLEX,0.8,(255,255,255),3)
                     cv2.putText(frame,f"Roll:{r}",(x,y-55),cv2.FONT_HERSHEY_COMPLEX,0.8,(255,255,255),3)
