@@ -30,7 +30,7 @@ class Face_Recognition:
         Back_Button=Button(title_lbl,text="Back",command=self.root.destroy,font=("times new roman",15,"bold"),width=20,bg="white",fg="green")
         Back_Button.pack(side=RIGHT)
         # 1st
-        img_top = Image.open("/Users/anuradhanaidu/Desktop/Face/images/facer2.jpg")
+        img_top = Image.open("images/facer2.jpg")
         img_top = img_top.resize((650, 700), Image.ANTIALIAS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 
@@ -38,7 +38,7 @@ class Face_Recognition:
         f_lbl.place(x=0,y=55,width=650,height=700)
         # 2nd
         img_bottom = Image.open(
-            "/Users/anuradhanaidu/Desktop/Face/images/facer1.jpg")
+            "images/facer1.jpg")
         img_bottom = img_bottom.resize((950, 700), Image.ANTIALIAS)
         self.photoimg_bottom = ImageTk.PhotoImage(img_bottom)
 
